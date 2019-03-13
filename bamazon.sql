@@ -11,15 +11,15 @@ create table products(
 );
 
 insert into products(product_name, department_name, price, stock_quantity)
-values("Snake Plant", "Outdoor & Gardening", 12, 100), 
-("Brass Mister", "Outdoor & Gardening", 24, 500), 
-("Neon Pothos", "Outdoor & Gardening", 10, 250), 
-("Coffee Table", "Furniture", 180, 75), 
-("Pendant Light", "Lighting", 35, 100),
-("Moon Night Light", "Lighting", 8, 300), 
-("Industrial Clothing Rack", "Furniture", 89, 50), 
-("Espresso Machine", "Kitchen", 2000, 100), 
-("Cappucino Mug", "Kitchen", 5, 500),
-("Catnip", "Pet Supplies", 3, 400);
+values("Garden Cart", "Outdoor & Gardening", 79, 100), 
+("Potting Bench", "Outdoor & Gardening", 149, 300), 
+("Garden Sphere", "Outdoor & Gardening", 10, 250), 
+("Night Stand", "Furniture", 79, 75), 
+("Edison Light", "Lighting", 25, 100),
+("Ring Flood Light", "Lighting", 349, 300), 
+("Sectional Sofa", "Furniture", 89, 50), 
+("Hot Pot", "Kitchen", 2000, 100), 
+("Warming Butter Knife", "Kitchen", 5, 500),
+("Poop Bags", "Pet Supplies", 3, 400);
 
 select * from products; 
